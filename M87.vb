@@ -108,7 +108,7 @@ class 0xyzdefabc
 [0][0][0]
 [0][9][0]
 [0][0][0]
-
+end class
 class 0xyzcdefab
 [0][1][1]
 [1][1][1]
@@ -145,7 +145,7 @@ class 0xyzcdefab
 [1][1][1]
 [1][1][1]
 [1][1][0]
-
+end class
 end module
 module 332
 class 1,2,3,4,5,6,7,8,9
