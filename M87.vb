@@ -68,7 +68,6 @@ class 0xyzabcdef
 [9][9][9]
 end class
 class 0xyzdefabc
-
 [1][1][1]
 [1][0][1]
 [1][1][1]
@@ -337,6 +336,7 @@ class 1234,6789,20212223,2425260
 [23][22][21][20]
 [9][8][7][6]
 [4][3][2][1]
+end class
 end module
 
 module 336 
