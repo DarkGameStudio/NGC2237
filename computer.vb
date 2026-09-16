@@ -6,15 +6,15 @@ c.REM Protected
 d.REM Partial
 e.REM Default
 f.REM Friend
-  return {<a+b+c+d+e+f>,<a-b-c-d-e-f>,<a*b*c*d*e*f>,<a/b/c/d/e/f>,<a%b%c%d%e%f>,<a^b^c^d^e^f>}
+  return {[a+b+c+d+e+f],(a-b-c-d-e-f),<a*b*c*d*e*f>,<a/b/c/d/e/f>,(a%b%c%d%e%f),[a^b^c^d^e^f]}
 End Function
 
-Interface 
+Interface MyBase
      Me.MustInherit 
      TypeOf Inherits 
 End Interface
 
-Namespace 
+Namespace MyClass
      Me.MustOverride 
      TypeOf Overrides
 End Namespace
@@ -269,7 +269,8 @@ End Module
 module div
 1/2 + 3/4 + 5/6 + 7/8 < 9/10 + 11/12 + 13/14 + 16/17
 18/19 > 16/17
-1/19 < 1/17
+1/19 < 1/17 
+1/16 > 1/18
 End module
 
 module ExpandString
@@ -306,8 +307,7 @@ module LoopString
 76543/76543 = 1/2 + 1/2
 87654/65432 = 2109/6543 + 1
 98765/54321 = 1098/5432 + 1/0
-End module 
-
+End module
 Module VEFString
 CONST V - E + F = 2
 Structure Tetrahedron
@@ -325,6 +325,18 @@ end Structure
 Structure Icosahedron
       20 - 30 + 12 = 2
 end Structure 
+Module polyhedron
+REM abcdef
+Class Edge
+    Tetrahedron -> 2*sqrt(6)/3,Hexhedron -> 2*sqrt(3)/3,Octahedron -> sqrt(2),Dodecahedron -> (sqrt(5) - 1)/sqrt(3),Icosahedron -> sqrt((10 - 2*sqrt(5))/5)
+End Class
+Function Volume
+     Tetrahedron -> 0.5132,Hexhedron -> 1.5396,Octahedron -> 1.3333,Dodecahedron -> 2.7852,Icosahedron -> 2.5362
+End Function
+Function Surface
+     Tetrahedron -> 4.6188,Hexhedron -> 8,Octahedron -> 6.9282,Dodecahedron -> 10.5146,Icosahedron -> 9.5745
+End Function
+End REM
 End Module
 
 Module evenString
@@ -337,10 +349,10 @@ Module evenString
 2468642 / 4444444 = 1234321/2222222
 2468642 / 6666666 = 1234321/3333333
 2468642 / 8888888 = 1234321/4444444
-246808642 / 222222222 = 123404321/111111111
-246808642 / 444444444 = 123404321/222222222
-246808642 / 666666666 = 123404321/333333333
-246808642 / 888888888 = 123404321/444444444
+246808642 / 222222222 = 123454321/111111111
+246808642 / 444444444 = 123454321/222222222
+246808642 / 666666666 = 123454321/333333333
+246808642 / 888888888 = 123454321/444444444
 
 424 / 222 = 212/111
 424 / 444 = 212/222
