@@ -1,4 +1,4 @@
-module 233
+module 331
 class 5
 [1][0][1]
 [0][2][0]
@@ -25,7 +25,7 @@ class 5
 [9][0][9]
 end class
 end module
-module 331
+module 332
 class 0xyzabcdef
 [0][0][0]
 [0][1][0]
@@ -146,7 +146,7 @@ class 0xyzcdefab
 [1][1][0]
 end class
 end module
-module 332
+module 333
 class 1,2,3,4,5,6,7,8,9
 [1][2][3]
 [4][5][6]
@@ -182,7 +182,7 @@ class 1,2,3,4,5,6,7,8,9
 end class
 end module
 
-module 333
+module 441
 class 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0
 [1][2][3][4]
 [5][6][7][8]
@@ -266,7 +266,7 @@ class 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0
 end class
 end module
 
-module 334
+module 442
 class 0000,1111,6789,16171819
 [0][0][0][0]
 [1][1][1][1]
@@ -300,7 +300,7 @@ class 0000,1111,6789,16171819
 end class
 end module
 
-module 335
+module 443
 class 1234,6789,20212223,2425260
 [1][2][3][4]
 [6][7][8][9]
@@ -339,7 +339,7 @@ class 1234,6789,20212223,2425260
 end class
 end module
 
-module 336 
+module 551
 class init
 [1][2][3][4][5]
 [6][7][8][9][10]
@@ -432,7 +432,7 @@ class 21,22,23,24,25
 end class
 end module
 
-module 337
+module 552
 class 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
 [1][2][3][4][5]
 [16][17][18][19][6]
@@ -485,7 +485,7 @@ class 25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1
 end class
 end module
 
-module 2337
+module 66
 [1][2][3][4][5][6]
 [2][1][2][3][4][5]
 [3][2][1][2][3][4]
@@ -501,7 +501,7 @@ module 2337
 [1][2][3][4][5][6]
 end module
 
-module 33
+module 77
 [a][b][c][d][e][f][xyz]
 [xyz][a][b][c][d][e][f]
 [f][xyz][a][b][c][d][e]
